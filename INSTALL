@@ -1,0 +1,9 @@
+Building Worldtrade
+
+See doc/readme-qt.rst for instructions on building Worldtrade-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Worldtrade.
+
+See doc/build-*.txt for instructions on building worldtraded,
+the intended-for-services, no-graphical-interface, reference
+implementation of Worldtrade.
