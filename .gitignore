@@ -1,0 +1,34 @@
+src/*.exe
+src/worldtrade
+src/worldtraded
+src/test_worldtrade
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.worldtrade
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+worldtrade-qt
+worldtrade-Qt.app
+
+# Unit-tests
+Makefile.test
+worldtrade-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
